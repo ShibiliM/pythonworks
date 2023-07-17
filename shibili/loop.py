@@ -6,13 +6,13 @@
 
 
 l=[1,2,3,4,5,6,7,8,9]
+s=[]
 for i in l:
-    ev=i
     if i%2==0:
-        if i==ev:
-            l=[i]
-            print(l)
+        print(i)
+        s.append(int(i)) 
+print(s)     
             
            
     
-    
+     
